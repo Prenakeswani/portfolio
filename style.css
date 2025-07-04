@@ -80,8 +80,11 @@ a {
 
 .hero-text .job-title {
   font-weight: bold;
+  margin-bottom: 0.5rem;
 }
-
+.hero-text .tagline {
+  margin-top: 0.5rem;
+}
 .hero-text .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -128,6 +131,14 @@ a {
 
 .what-i-do li, .fun-facts li {
   margin: 0.5rem 0;
+}
+
+.about-intro {
+  margin-bottom: 1rem; /* Add space below the intro text */
+}
+
+.what-i-do h3 {
+  margin-top: 1rem; /* Add space above "What I Do?" */
 }
 
 /* .portfolio-filters {
